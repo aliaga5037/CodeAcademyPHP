@@ -1,0 +1,80 @@
+.main {
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 350px;
+    height: 450px;
+    background-color: #0CB68B;
+    box-shadow: 0px 5px 10px 5px #ccc;
+}
+.main .container {
+    padding:20px;
+}
+.main .container .topic h1 {
+    color: white;
+}
+.main .container .topic p.empty, p.incorrect {
+    color: white;
+    padding: 5px;
+    background-color: #F24D4B;
+    height: 18px;
+    display: none;
+    font-weight: bold;
+}
+
+input[type=text], [type=password] {
+    margin: 0px 10px 0px 10px;
+    width: 100%;
+    padding: 6px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+input[type=submit] {
+    background-color: white;
+    width: 100%;
+    padding: 13px;
+    cursor: pointer;
+    font-family: frutiger_roman, Arial;
+    border: none;
+}
+input[value="Login!"] {
+    color: #0CB68B;
+    font-size: 20px;
+    box-shadow: none;
+}
+span {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-bottom: -11px;
+}
+
+.balloon {
+    width: 200px;
+    min-height: 100px;
+    background-color: #F24D4B;
+    position: absolute;
+    margin-left: 367px;
+    margin-top: -145px;
+    -moz-box-shadow: 0px 5px 10px 5px #ccc;
+    -webkit-box-shadow: 0px 5px 10px 5px #ccc;
+    box-shadow: 0px 5px 10px 5px #ccc;
+    padding: 10px;
+    color: #fff;
+}
+.balloon p {
+    font-weight: bold;
+    line-height: 15px;
+    font-size: 20px;
+}
+.arrow {
+    background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 40px;
+}

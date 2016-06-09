@@ -5,19 +5,19 @@
  * Date: 6/8/2016
  * Time: 4:25 AM
  */
-session_start();
+session_start(); // sandığı açırıq 
 
-$userName = $_POST['username'];
-$passWord = $_POST['password'];
+$userName = $_POST['userName'];
+$passWord = $_POST['pswd'];
 
 if (isset($userName) and isset($passWord)) {
     if (empty($userName) or empty($passWord)) {
         echo 'Form kutularini tam doldurun';
     } else {
-        if ($userName == 'admin' and $passWord = 'admin') {
+        if ($userName == 'login' and $passWord = 'login') {
             $_SESSION["trueUser"] = $userName;
             $_SESSION["truePass"] = $passWord;
-            header("Location:admin.php");
+            header("Location:login.php");
         } else {
             header("Location:../index.php");
         }
