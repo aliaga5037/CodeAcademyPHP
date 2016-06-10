@@ -77,7 +77,7 @@
         }
     }
 ?>
-<p>Netice: <?php
+<p>Result: <?php
     if (isset($res)) {
         echo $res;
     } else {
