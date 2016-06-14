@@ -1,0 +1,72 @@
+#main {
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 400px;
+    height: 500px;
+}
+
+.outputArea {
+    background-color: #7986cb;
+    height: 150px;
+    border: 1px solid black;
+}
+
+/*numsArea start*/
+
+.outputArea .numsArea{
+    /*border: 1px solid black;*/
+}
+.outputArea .numsArea .counter {
+    opacity: .7;
+    font-size: 15px;
+}
+
+/* numsArea end*/
+
+/*resArea start*/
+
+.outputArea .resArea {
+    /*border: 1px solid black;*/
+}
+.outputArea .resArea .showResult {
+    font-size: 35px;
+}
+
+/*resArea end*/
+
+/* numsArea and resArea common features start*/
+.outputArea, .numsArea, .resArea {
+    padding: 10px;
+}
+.outputArea ,.numsArea, .resArea span {
+    text-align: center;
+    color: white;
+}
+/* numsArea and resArea common features start*/
+
+/* Buttons area start */
+.buttonsArea {
+    height: 300px;
+    border: 1px solid black;
+    background-color: #212121;
+}
+.buttonsArea .click {
+    position: relative;
+    top: 6px;
+    /* border: 1px solid black; */
+    width: 80px;
+    height: 60px;
+}
+.buttonsArea .click span {
+    position: absolute;
+    top: 13px;
+    left: 31px;
+    /* border: 1px solid black; */
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.buttonsArea .click span#equal {
+    color: #0d47a1;
+}
+

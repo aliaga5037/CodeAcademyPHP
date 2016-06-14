@@ -1,0 +1,28 @@
+*{
+    margin:0 auto;
+    padding: 0;
+}
+.calculator{
+    width: 240px;
+}
+.screen{
+    height: 150px;
+    background-color: blue;
+    color:white;
+
+}
+.keyBoard{
+    height: 250px;
+    background-color: black;
+    color:white;
+}
+
+button{
+    background-color: black;
+    border: none;
+    width:60px ;
+    height:50px;
+}
+.row .col {
+    padding:0;
+}
